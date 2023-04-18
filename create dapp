@@ -1,2 +1,3 @@
 首先安装yarn
 然后输入yarn create vite输入项目的名字，然后选择react,然回选javascript
+然后进入文件，在yarn,然后yarn dev
