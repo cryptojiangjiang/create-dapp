@@ -3,3 +3,12 @@
 然后输入yarn create vite输入项目的名字，然后选择react,然回选javascript
 然后进入文件，在yarn,然后yarn dev
 yarn add --dev tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}将7-14行的代码跟文件中的tailwind.config.js进行替换
