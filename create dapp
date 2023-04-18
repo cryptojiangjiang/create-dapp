@@ -15,3 +15,15 @@ module.exports = {
 然后yarn dev,将<h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>放进App.jsx进行替换
+  【到此前端的项目就完成了】
+  --------------------------------------------------------------------------
+  然后创建一个ERC20文件夹，运行hardhat
+  mkdir ERC20
+  cd ERC20
+  mkdir smart_contract
+  cd smart_contract
+  yarn init -y
+  yarn add --dev hardhat
+  yarn hardhat
+  yarn hardhat test
+  
