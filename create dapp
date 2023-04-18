@@ -39,4 +39,4 @@ module.exports = {
   "@ethersproject/abi@^5.4.7"
   "@ethersproject/providers@^5.4.7"
   将这些包安装在文件中在进行yarn hardhat test
-  
+  然后去编写deploy.js和hardhat.config.js弄完了之后用yarn hardhat node进行部署
